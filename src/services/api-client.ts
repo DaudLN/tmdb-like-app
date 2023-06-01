@@ -1,8 +1,6 @@
 import axios, { AxiosRequestConfig } from "axios";
 import APIResponse from "../entities/APIResponse";
 
-const { VITE_API_KEY } = import.meta.env;
-
 const axiosInstance = axios.create({
   baseURL: "https://api.themoviedb.org/3",
   params: {
